@@ -6,7 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/clanbomber/%{name}-%{version}.tar.gz
-# Source0-md5:	
+# Source0-md5:	eb9449e2ddffd5d1874a4d34fd289ae3
 #Source1:	%{name}.desktop
 #Source2:	%{name}.png
 URL:		http://clanbomber.sourceforge.net/
