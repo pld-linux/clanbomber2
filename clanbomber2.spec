@@ -4,7 +4,7 @@ Name:		clanbomber2
 Version:	0.9
 Release:	0.2
 License:	GPL
-Group:		Applications/Games
+Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/clanbomber/%{name}-%{version}.tar.gz
 # Source0-md5:	eb9449e2ddffd5d1874a4d34fd289ae3
 Source1:	%{name}.desktop
