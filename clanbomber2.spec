@@ -2,7 +2,7 @@ Summary:	ClanBomber2 a network compatible version of ClanBomber
 Summary(pl):	ClanBomber2, sieciowa wersja ClanBombera
 Name:		clanbomber2
 Version:	0.9
-Release:	0.2
+Release:	0.3
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/clanbomber/%{name}-%{version}.tar.gz
@@ -37,12 +37,12 @@ w ni± graæ w kilku. Koniecznie musisz j± wypróbowaæ!
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_applnkdir}/Games/Arcade,%{_pixmapsdir}} \
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}} \
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games/Arcade
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -53,5 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog QUOTES README TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/%{name}
-%{_applnkdir}/Games/Arcade/%{name}.desktop
+%{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/*.png
