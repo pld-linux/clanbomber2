@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ClanBomber2
+Comment=ClanBomber2 Game
+Comment[pl]=Gra ClanBomber2
+Icon=clanbomber.png
+Exec=clanbomber2
+Terminal=false
+Type=Application
+Encoding=UTF-8
+# vi: encoding=utf-8
