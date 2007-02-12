@@ -1,5 +1,5 @@
 Summary:	ClanBomber2 a network compatible version of ClanBomber
-Summary(pl):	ClanBomber2, sieciowa wersja ClanBombera
+Summary(pl.UTF-8):   ClanBomber2, sieciowa wersja ClanBombera
 Name:		clanbomber2
 Version:	0.9
 Release:	0.3
@@ -22,10 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ClanBomber2 is very nice and playable Bomberman/Dynablaster clone. It
 has network and multiplayer support. You must have try it! :-)
 
-%description -l pl
-ClanBomber2 to bardzo fajna i wci±gaj±ca gierka, zbli¿ona do
-Bombermana/Dynablastera. Posiada wsparcie do gry sieciowej oraz mo¿na
-w ni± graæ w kilku. Koniecznie musisz j± wypróbowaæ!
+%description -l pl.UTF-8
+ClanBomber2 to bardzo fajna i wciÄ…gajÄ…ca gierka, zbliÅ¼ona do
+Bombermana/Dynablastera. Posiada wsparcie do gry sieciowej oraz moÅ¼na
+w niÄ… graÄ‡ w kilku. Koniecznie musisz jÄ… wyprÃ³bowaÄ‡!
 
 %prep
 %setup -q
