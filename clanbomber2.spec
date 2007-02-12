@@ -1,5 +1,5 @@
 Summary:	ClanBomber2 a network compatible version of ClanBomber
-Summary(pl.UTF-8):   ClanBomber2, sieciowa wersja ClanBombera
+Summary(pl.UTF-8):	ClanBomber2, sieciowa wersja ClanBombera
 Name:		clanbomber2
 Version:	0.9
 Release:	0.3
