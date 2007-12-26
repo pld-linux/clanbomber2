@@ -2,10 +2,9 @@
 Name=ClanBomber2
 Comment=ClanBomber2 Game
 Comment[pl]=Gra ClanBomber2
-Icon=clanbomber.png
+Icon=clanbomber
 Exec=clanbomber2
 Terminal=false
 Type=Application
-Encoding=UTF-8
 Categories=Game;ArcadeGame;
 # vi: encoding=utf-8
